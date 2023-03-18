@@ -1,1 +1,3 @@
-export const foo = 'bar';
+export function foo() {
+	return 'foo';
+}

@@ -4,6 +4,10 @@
 	"parserOptions": {
 		"project": "./tsconfig.eslint.json"
 	},
+	"rules": {
+		// doesn't work with aliases imports
+		"import/extensions": "off"
+	},
 	"ignorePatterns": ["**/dist/*"],
 	"env": {
 		"jest": true
