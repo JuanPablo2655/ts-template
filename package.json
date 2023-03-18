@@ -1,0 +1,19 @@
+{
+	"name": "ts-template",
+	"version": "0.1.0",
+	"main": "index.js",
+	"repository": "git@github.com:JuanPablo2655/ts-template.git",
+	"author": "JuanPablo2655 <personal@isidrocasiano.com>",
+	"license": "MIT",
+	"private": true,
+	"devDependencies": {
+		"@types/eslint": "^8.21.2",
+		"@types/node": "^18.15.3",
+		"eslint": "^8.36.0",
+		"eslint-config-neon": "^0.1.40",
+		"prettier": "^2.8.4",
+		"tslib": "^2.5.0",
+		"typescript": "^4.9.5"
+	},
+	"packageManager": "yarn@3.5.0"
+}
