@@ -13,6 +13,6 @@ Install the packages
 ## Rebranding
 
 1. Update [package.json](package.json)
-   - Change `name` to the name of the project
-   - Change `main` to the main file of the project
-   - Change `repository` to the correct repo
+    - Change `name` to the name of the project
+    - Change `main` to the main file of the project
+    - Change `repository` to the correct repo
