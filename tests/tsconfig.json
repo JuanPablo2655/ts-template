@@ -5,6 +5,7 @@
 		"noEmit": true,
 		"types": ["vitest/globals"],
 		"paths": {
+			"#lib/*": ["../src/lib/*"],
 			"#root/*": ["../src/*"]
 		}
 	},

@@ -3,14 +3,17 @@ import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
 	resolve: {
-		alias: [{ find: '#root', replacement: `${resolve('src')}` }],
+		alias: [
+			{ find: '#lib', replacement: `${resolve('src/lib')}` },
+			{ find: '#root', replacement: `${resolve('src')}` },
+		],
 	},
 	esbuild: { format: 'esm' },
 	test: {
 		globals: true,
 		coverage: {
 			reporter: ['text', 'lcov', 'clover'],
-			include: ['src/**/*.ts'],
+			include: ['src/lib/**/*.ts'],
 			exclude: [],
 		},
 	},

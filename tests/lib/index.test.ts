@@ -1,4 +1,4 @@
-import { foo } from '#root/index';
+import { foo } from '#lib/index';
 
 describe('index', () => {
 	test('foo RETURNS foo', () => {

@@ -5,3 +5,4 @@ yarn.lock
 .github/
 .yarn/
 .yarnrc.yml
+coverage

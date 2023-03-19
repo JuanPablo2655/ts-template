@@ -1,3 +1,1 @@
-export function foo() {
-	return 'foo';
-}
+export * from './lib/index.js';
