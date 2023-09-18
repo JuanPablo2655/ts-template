@@ -6,7 +6,6 @@
 		"allowUnreachableCode": false,
 		"allowUnusedLabels": false,
 		"noImplicitOverride": true,
-		"importsNotUsedAsValues": "error",
 		"newLine": "LF",
 		"noEmitHelpers": true,
 		"removeComments": false,
@@ -33,6 +32,7 @@
 		"pretty": true,
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
-		"useDefineForClassFields": true
+		"useDefineForClassFields": true,
+		"verbatimModuleSyntax": true
 	}
 }
