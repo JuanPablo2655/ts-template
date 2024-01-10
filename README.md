@@ -7,7 +7,7 @@ A personal typescript template because it's a pain setting up a new project on s
 Install the packages
 
 ```bash
-  yarn install
+  pnpm install
 ```
 
 ## Rebranding

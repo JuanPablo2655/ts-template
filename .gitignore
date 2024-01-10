@@ -9,9 +9,5 @@ node_modules/
 .env
 .env.test
 
-# Yarn files
-.yarn/install-state.gz
-.yarn/build-state.yml
-
 # Ignore generated files
 dist/
