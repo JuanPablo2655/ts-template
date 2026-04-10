@@ -15,10 +15,10 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 8
-      - name: Install Node v20
+      - name: Install Node v24
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 24
           cache: pnpm
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
@@ -34,10 +34,10 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 8
-      - name: Install Node v20
+      - name: Install Node v24
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 24
           cache: pnpm
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
@@ -53,10 +53,10 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 8
-      - name: Install Node v20
+      - name: Install Node v24
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 24
           cache: pnpm
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
@@ -72,10 +72,10 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 8
-      - name: Install Node v20
+      - name: Install Node v24
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 24
           cache: pnpm
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
